@@ -1,0 +1,161 @@
+
+
+/********************** 业主晒家 **********************/
+.owner-home>.content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 6.4vw;
+}
+
+.owner-home>.content-wrapper>#content-reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+/* .owner-home>.content-wrapper>.content { */
+.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 7vw;
+    justify-content: space-around;
+}
+
+.content>img {
+    width: 40.3vw;
+    height: 28.9vw;
+}
+
+.content .profile {
+    width: 9.2vw;
+}
+
+.owner-home .content p {
+    font-size: 2.7vw;
+    width: 44.2vw;
+}
+
+.content .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 1.4vw;
+}
+
+.content h3 {
+    font-size: 3vw;
+    margin-left: 3.2vw;
+}
+
+/********************** 全包家装 **********************/
+.inclusive>.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-top: 5vw;
+}
+
+.inclusive>.content>ul {
+    width: 90vw;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.inclusive>.content>ul>li>div {
+    width: 13.8vw;
+    height: 13.8vw;
+    line-height: 16.8vw;
+    border-radius: 0;
+    margin-bottom: 2.4vw;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.inclusive>.content>ul>li img {
+    width: 6.4vw;
+}
+
+/********************** 环保家居 **********************/
+.protection {
+    margin-top: 9vw;
+}
+
+.protection>.content-wrapper {
+    margin-top: 9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content>.info>h2 {
+    font-size: 3.7vw;
+    margin-bottom: 4.4vw;
+}
+
+.content>.info>p {
+    font-size: 3.1vw;
+    margin-top: 1.9vw;
+    width: 43vw;
+}
+
+/********************** 产品详情 **********************/
+.product-details>a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1vw solid #aaa;
+    padding: 5.7vw 26vw 11.6vw 26vw;
+    color: #000;
+}
+
+.product-details>a>h1 {
+    font-size: 8.7vw;
+}
+
+.product-details>a>p {
+    font-size: 5.2vw;
+    margin-top: 6.2vw;
+}

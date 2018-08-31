@@ -1,0 +1,320 @@
+.page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+.inquiry{
+    display: block;
+    width:90vw;
+    height:11.2vw;
+    line-height: 11.2vw;
+    background:#ff6666;
+    color:#fff;
+    font-size: 4.1vw;
+    margin-top: 13.3vw;
+    margin-bottom:15vw;
+    border:0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+/****************** 公用标题 ******************/
+.big-title {
+    font-size: 8.7vw;
+}
+
+.title1 {
+    font-size: 4.2vw
+}
+
+.title2 {
+    font-size: 5.3vw;
+}
+
+.title-info {
+    font-size: 2.7vw;
+}
+
+.title-wrapper {
+    position: relative;
+}
+
+.title-wrapper>img {
+    width: 90vw;
+}
+
+.title-wrapper>h1 {
+    position: absolute;
+    top: 3.9vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+}
+
+/********************** 顶部 **********************/
+.top {
+    width: 100vw;
+    height: 76.2vw;
+    background-image: url(../images/index/1大图.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.top>img {
+    width: 15.2vw;
+    margin-top: 4vh;
+    border-right: .3vw solid #000;
+    padding-right: 2vw;
+}
+
+.top>.company {
+    text-align: center;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+
+.top>.company>p {
+    margin-top: .5vh;
+    font-size: 3.1vw;
+}
+
+/********************** 计算装修价钱 **********************/
+.send-form {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 3.7vw;
+    background:#fff;
+}
+
+.send-form>h1 {
+    margin-bottom: 5.8vw;
+}
+
+.send-form img {
+    width: 4.6vw;
+    height: 4.6vw;
+    margin-top: .5vw;
+}
+
+.send-form>img {
+    margin-top: 10.4vw;
+    margin-bottom: 9.7vw;
+}
+
+.send-form>form>div,
+.send-form>form>.two>div {
+    padding: 2.7vw 1.8vw;
+    color: #999;
+    border: .3vw solid #dcdcdc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2.4vw;
+    cursor: pointer;
+}
+
+.send-form>form>.two {
+    border: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.send-form>form>.two>div {
+    width: 43.8vw;
+    position: relative;
+}
+
+.send-form>form>.two .more {
+    width: 3.7vw;
+    height: 2.1vw;
+    position: absolute;
+    right:3vw;
+}
+
+.send-form>form input {
+    width: 80vw;
+    height: 5.5vw;
+    outline: none;
+    font-size: 3.7vw;
+    margin-left: 2vw;
+    border:0;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.send-form>form select {
+    font-size: 3.7vw;
+    outline: none;
+    padding-right: 10.5vw;
+    border: 0;
+    appearance:none;   
+    -moz-appearance:none;   
+    -webkit-appearance:none;
+    padding-right:20vw;
+    margin-left:2vw;
+    background-image: url(../images/icon/下拉箭头.png);
+    background-size: 3.7vw 2.1vw;
+    background-repeat: no-repeat;
+    background-position: 27vw;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.send-form>form .submit {
+    width: 90vw;
+    margin: 0 auto;
+    height: 11.2vw;
+    background: #ff6666;
+    color: #fff;
+    font-size: 4.1vw;
+    border: 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+/********************** 五部曲/服务流程 **********************/
+.five-song {
+    width: 100vw;
+    background: #f6f5f6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 5.6vw;
+    padding-bottom: 10.8vw;
+}
+.five-song>ul>img{
+    width:2.1vw;
+    height:3.7vw;
+    margin-top:2.5vw;
+}
+
+.five-song>h1 {
+    font-size: 4.2vw;
+    margin-bottom: 9.5vw;
+}
+
+.five-song>ul,
+.inclusive>.content>ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.five-song>ul>li>div,
+.inclusive>.content>ul>li>div {
+    width: 8.5vw;
+    height: 8.5vw;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 9vw;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 1.8vw;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.five-song>ul>li,
+.inclusive>.content>ul>li {
+    text-align: center;
+}
+
+.five-song>ul>li img {
+    width: 4.6vw;
+    height: 4.6vw;
+    margin-top:1.5vw;
+}
+
+.five-song>ul>li>p {
+    font-size: 3.1vw;
+}
+
+/********************** 底部 **********************/
+.footer {
+    margin-top: 8.7vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.footer>h3 {
+    text-align: center;
+    border: .5vw solid #333;
+    padding: 2vw 8vw;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 4.1vw;
+}
+
+.footer>.top>img {
+    width: 15.2vw;
+}
+
+.footer>.top {
+    width: 90vw;
+    height: 18vw;
+    background-image: none;
+    margin-bottom: 8vw;
+}

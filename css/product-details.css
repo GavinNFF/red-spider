@@ -1,0 +1,146 @@
+/****************** 顶部 ******************/
+.product-top {
+    width: 100vw;
+    height: 81.4vw;
+    background-image: url(../images/product-details/大图1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.product-top>div {
+    margin-top: 18.5vw;
+}
+
+.product-top p {
+    font-size: 3vw;
+}
+
+/****************** 分类 ******************/
+.classify {
+    margin-top: 9.9vw;
+    margin-bottom: 5.5vw;
+}
+
+.classify-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classify-content>p {
+    width: 20.7vw;
+    height: 9vw;
+    background: #ffa825;
+    line-height: 9vw;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.classify>img {
+    width: 3.7vw;
+    height: 3.7vw;
+    margin-top: 3.7vw;
+}
+
+.title-wrap {
+    padding-bottom: 11.9vw;
+}
+
+.title2 {
+    margin-bottom: 3.7vw;
+}
+
+/*************************** 通用-风格定制 **************************/
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content img {
+    width: 43.5vw;
+    height: 28.7vw;
+}
+
+.content>li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5.5vw;
+}
+
+/*************************** 个性化家装 **************************/
+.individuation>.title-wrap {
+    margin-top: 6.8vw;
+}
+
+.individuation>.content>h3 {
+    font-size: 3.2vw;
+    margin-bottom: 2.5vw;
+}
+
+/*************************** 空间基础配置 **************************/
+.basics {
+    padding-top: 6.8vw;
+}
+
+.basics>.content>li>img {
+    width: 90vw;
+    height: 53.3vw;
+}
+
+.basics>.content>h3 {
+    margin-bottom: 8.4vw;
+}
+
+.basics>.content>.basics-info {
+    font-size: 3vw;
+    text-align: left;
+}
+
+.basics>.content>.basics-info>span {
+    font-weight: bolder;
+}
+
+.basics>.content>.three-img {
+    margin-top: 6.4vw;
+}
+
+.basics>.content>.three-img>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basics>.content>.three-img img {
+    width: 27vw;
+    height: 23.7vw;
+}
+
+.basics>.content>.three-img h4 {
+    font-size: 3.2vw;
+    margin: 3.5vw 0;
+}
+
+.basics>.content>.three-img p {
+    font-size: 3vw;
+    width: 24.8vw;
+    text-align: left;
+}
+
+.basics>.content>.two-img img {
+    width: 41.2vw;
+    height: 23.7vw;
+}
+
+.basics>.content>.two-img p {
+    width: 41.2vw;
+}
+
+/* 计算价钱 */
+#compute {
+    display: none;
+}
